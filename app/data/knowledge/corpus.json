@@ -1,0 +1,104 @@
+[
+  {
+    "id": "profile-oybek",
+    "title": "Profile — Oybek Ismanov (Kyler)",
+    "tags": ["profile", "bio", "about", "oybek", "kyler"],
+    "content": "Name: Oybek Ismanov (also known as Kyler). He is a Full Stack Developer who works on both frontend and backend and is interested in building modern web applications. Education: he graduated from Jeonbuk National University (전북대학교) in South Korea, Business/Commerce major. He has lived in South Korea since 2022 for study and professional growth. Location context: Suwon / South Korea. Contact: email ismanovoybek75@gmail.com, phone +82 10 9864 7725. Age: 26. He builds practical digital products across web, mobile, and AI. Open to full-time and contract opportunities."
+  },
+  {
+    "id": "education-jeonbuk",
+    "title": "Education — Jeonbuk National University",
+    "tags": ["education", "university", "korea", "jeonbuk", "graduated"],
+    "content": "Oybek Ismanov graduated from Jeonbuk National University (전북대학교) in South Korea. Field: Business/Commerce. He is a university graduate (not a current student). He has lived in South Korea since 2022 and continues professional growth as a developer."
+  },
+  {
+    "id": "skills-frontend",
+    "title": "Skills — Frontend",
+    "tags": ["skills", "frontend", "react", "nextjs"],
+    "content": "Frontend technologies Oybek works with: React, Next.js, TypeScript, JavaScript, Redux Toolkit, MUI, SCSS, Swiper. He builds user interfaces with React and Next.js for modern web products."
+  },
+  {
+    "id": "skills-backend",
+    "title": "Skills — Backend",
+    "tags": ["skills", "backend", "nestjs", "api"],
+    "content": "Backend technologies Oybek works with: Node.js, Express.js, NestJS, Python, Django, REST API, GraphQL, Apollo, WebSocket, Socket.IO. He builds APIs, authentication, database integration, and server-side business logic. Authentication experience includes JWT, cookies, sessions, and bcrypt. Real-time experience includes WebSocket and Socket.IO."
+  },
+  {
+    "id": "skills-database-mobile-devops",
+    "title": "Skills — Database, Mobile, DevOps",
+    "tags": ["skills", "database", "mobile", "devops"],
+    "content": "Databases: PostgreSQL, MySQL, MongoDB, NoSQL. Mobile: Flutter, React Native. DevOps and tools: Docker, PM2, Git, GitHub, Postman. Oybek is not limited to web only — he builds for web, mobile, and AI platforms."
+  },
+  {
+    "id": "skills-ai",
+    "title": "Skills — AI Direction",
+    "tags": ["skills", "ai", "rag", "llm", "saas"],
+    "content": "Oybek is interested in AI technologies. Current focus areas: AI SaaS, RAG (Retrieval-Augmented Generation), RAG pipeline, LLM orchestration, multi-provider AI, and AI provider failover. He develops AI applications and works with LLMs in production-style workflows."
+  },
+  {
+    "id": "experience-web-fullstack",
+    "title": "Experience — Full Stack Web Development",
+    "tags": ["experience", "fullstack", "web"],
+    "content": "Oybek focuses on building complete web applications by connecting frontend and backend. Frontend: React and Next.js UIs. Backend: Node.js and NestJS for APIs, authentication, databases, and business logic. He has worked with REST API as well as GraphQL and Apollo. Auth: JWT, cookies, sessions, bcrypt. Real-time: WebSocket, Socket.IO. He develops himself as a Full Stack Developer across web, mobile, and AI — not only as a web developer."
+  },
+  {
+    "id": "experience-nova-ai-labs",
+    "title": "Experience — Nova AI Labs",
+    "tags": ["experience", "work", "nova", "ai"],
+    "content": "Nova AI Labs — Software AI Developer (current role). Builds RAG pipelines, LLM orchestration, and AI SaaS products. Stack includes FastAPI, Next.js, LangChain, embeddings, vector search, and production AI workflows."
+  },
+  {
+    "id": "experience-powerprop",
+    "title": "Experience — PowerProp",
+    "tags": ["experience", "work", "powerprop", "freelance"],
+    "content": "PowerProp — Full Stack Developer (Freelance, Remote). Built full-stack product features with NestJS, Next.js, GraphQL, Docker, GCP, JWT and OAuth authentication."
+  },
+  {
+    "id": "experience-click-uzbekistan",
+    "title": "Experience — Click Uzbekistan",
+    "tags": ["experience", "work", "click", "tashkent"],
+    "content": "Click Uzbekistan — Full Stack / Frontend Developer (Tashkent). Worked on React applications, Figma-based design systems, B2B SaaS products, and Agile delivery."
+  },
+  {
+    "id": "project-about-me",
+    "title": "Project — About Me (this portfolio website)",
+    "tags": ["project", "about-me", "portfolio", "ai-assistant", "this-site"],
+    "content": "This website is Oybek Ismanov's personal About Me / portfolio platform. It presents who Oybek is, his developer skills, projects, experience, and technologies. Main goal: not only a static portfolio, but an interactive AI Assistant that users can talk to. Through the AI Assistant, users can ask about: who Oybek is, what kind of developer he is, which technologies he knows, which projects he built, how projects work, used technologies, his professional direction, and this About Me site itself. The assistant answers only from trusted knowledge provided by Oybek. When users ask 'what platform is this' / 'bu qanday platforma' / 'shu sayt nima', answer that it is Oybek's personal About Me portfolio website with an AI assistant."
+  },
+  {
+    "id": "project-autodeal-autocare",
+    "title": "Project — AutoDeal / AutoCare AI",
+    "tags": ["project", "autodeal", "autocare", "marketplace", "cars", "2025"],
+    "content": "One of Oybek's main projects is AutoDeal — a car selling and search web application (also related to AutoCare AI automobile marketplace). Pages/features built: Home, All cars, Car details, Agents, Agent details, About, Contact, Pricing, Blog, Login, Signup, Admin, My Page, FAQ, Notice. Frontend and backend are connected. Uses GraphQL, authentication, database, and modern web technologies. AutoCare AI (2025) stack: NestJS, Next.js, GraphQL, Postgres, Docker. Link: http://autocare.ai.kr/"
+  },
+  {
+    "id": "project-bookstore-nusret",
+    "title": "Project — Electronic Library / Bookstore (Nusret)",
+    "tags": ["project", "bookstore", "library", "nusret", "ecommerce", "2024"],
+    "content": "Oybek built an electronic library / bookstore web application (Nusret Library). Goal: let users search, buy, and read books online in digital format. Users can browse books, search, view book details, purchase, download purchased books, and read downloaded books. Through this project he gained practical experience in e-commerce, book catalogs, user systems, and digital content management. Nusret Library link: http://nusret-library.uz . Related admin portal Nusret Admin (2024) manages users and products: http://72.61.125.139:3004/admin"
+  },
+  {
+    "id": "project-static-engine",
+    "title": "Project — Static Engine",
+    "tags": ["project", "static-engine", "saas", "ai", "2026"],
+    "content": "Static Engine (2026): AI ad-creative SaaS platform. Features multi-provider LLM failover, Stripe billing, Meta and Shopify integrations. Tech: NestJS, TypeScript, Postgres, BullMQ, Redis, OpenAI. Link: https://staticengine.com/"
+  },
+  {
+    "id": "project-telegram-ai-quiz-bot",
+    "title": "Project — Telegram AI Quiz Bot",
+    "tags": ["project", "telegram", "bot", "openai", "2024"],
+    "content": "Telegram AI Quiz Bot (2024): interactive quiz bot built with Node.js and OpenAI for conversational quizzes and learning."
+  },
+  {
+    "id": "professional-direction",
+    "title": "Professional Direction",
+    "tags": ["career", "direction", "goals", "ai", "saas"],
+    "content": "Oybek's main interest is building modern digital products: web applications, mobile applications, and AI-powered applications. He is especially interested in products that give real user value, AI integration, SaaS platforms, and modern software architecture. He develops as a Full Stack Developer across web, mobile, and AI — not only as a Web Developer."
+  },
+  {
+    "id": "assistant-rules",
+    "title": "AI Assistant Behavior Rules",
+    "tags": ["assistant", "rules", "rag", "about-me"],
+    "content": "This chat assistant belongs to Oybek's About Me portfolio website. Answer only from provided knowledge. Never invent facts. If information is missing (for example number of clients), clearly say it is not in the knowledge base. Answers should not be overly short — give detailed, clear, natural replies. For broad questions, combine related facts into a complete answer."
+  }
+]
