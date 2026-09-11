@@ -1,6 +1,6 @@
 # about-me-api
 
-Kyler (Ismanov Oybek) portfolio uchun FastAPI RAG chat backend.
+Bek / 베크 (Ismanov Oybek) portfolio uchun FastAPI RAG chat backend.
 
 Frontend (`about-me` Next.js) shu API’ga ulanadi:
 
@@ -70,7 +70,7 @@ Request:
 
 ```json
 {
-  "message": "What projects has Kyler built?",
+  "message": "What projects has Bek built?",
   "locale": "en"
 }
 ```

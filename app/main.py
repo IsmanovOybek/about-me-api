@@ -9,7 +9,7 @@ settings = get_settings()
 app = FastAPI(
     title=settings.app_name,
     version="1.0.0",
-    description="Kyler portfolio RAG chat API",
+    description="Bek (Oybek Ismanov) portfolio RAG chat API",
 )
 
 setup_cors(app, settings)

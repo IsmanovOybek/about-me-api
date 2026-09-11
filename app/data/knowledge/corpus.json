@@ -1,9 +1,9 @@
 [
   {
     "id": "profile-oybek",
-    "title": "Profile — Oybek Ismanov (Kyler)",
-    "tags": ["profile", "bio", "about", "oybek", "kyler"],
-    "content": "Name: Oybek Ismanov (also known as Kyler). He is a Full Stack Developer who works on both frontend and backend and is interested in building modern web applications. Education: he graduated from Jeonbuk National University (전북대학교) in South Korea, Business/Commerce major. He has lived in South Korea since 2022 for study and professional growth. Location context: Suwon / South Korea. Contact: email ismanovoybek75@gmail.com, phone +82 10 9864 7725. Age: 26. He builds practical digital products across web, mobile, and AI. Open to full-time and contract opportunities."
+    "title": "Profile — Oybek Ismanov (Bek)",
+    "tags": ["profile", "bio", "about", "oybek", "bek"],
+    "content": "Name: Oybek Ismanov (also known as Bek; Korean name/nickname: 베크). He is a Full Stack Developer who works on both frontend and backend and is interested in building modern web applications. Education: he graduated from Jeonbuk National University (전북대학교) in South Korea, Business/Commerce major. He has lived in South Korea since 2022 for study and professional growth. Location context: Suwon / South Korea. Contact: email ismanovoybek75@gmail.com, phone +82 10 9864 7725. Age: 26. He builds practical digital products across web, mobile, and AI. Open to full-time and contract opportunities. When speaking Korean, refer to him as 베크."
   },
   {
     "id": "education-jeonbuk",
@@ -66,10 +66,22 @@
     "content": "This website is Oybek Ismanov's personal About Me / portfolio platform. It presents who Oybek is, his developer skills, projects, experience, and technologies. Main goal: not only a static portfolio, but an interactive AI Assistant that users can talk to. Through the AI Assistant, users can ask about: who Oybek is, what kind of developer he is, which technologies he knows, which projects he built, how projects work, used technologies, his professional direction, and this About Me site itself. The assistant answers only from trusted knowledge provided by Oybek. When users ask 'what platform is this' / 'bu qanday platforma' / 'shu sayt nima', answer that it is Oybek's personal About Me portfolio website with an AI assistant."
   },
   {
+    "id": "projects-featured-links",
+    "title": "Featured Projects with Links",
+    "tags": ["project", "links", "portfolio", "featured"],
+    "content": "Bek's (Oybek Ismanov) featured live projects with links: 1) AutoCare AI — automobile marketplace / car selling and search platform. Link: http://autocare.ai.kr/ 2) Mashaqqat — live education platform for FullStack, DevOps, AI Engineering, Agentic programming and related courses (bootcamps and workshops). Link: https://www.mashaqqat.com/ 3) Static Engine — AI SaaS that generates high-performing Meta ad creatives fast for performance teams. Link: https://staticengine.com/ When listing projects, include these three links."
+  },
+  {
     "id": "project-autodeal-autocare",
     "title": "Project — AutoDeal / AutoCare AI",
     "tags": ["project", "autodeal", "autocare", "marketplace", "cars", "2025"],
-    "content": "One of Oybek's main projects is AutoDeal — a car selling and search web application (also related to AutoCare AI automobile marketplace). Pages/features built: Home, All cars, Car details, Agents, Agent details, About, Contact, Pricing, Blog, Login, Signup, Admin, My Page, FAQ, Notice. Frontend and backend are connected. Uses GraphQL, authentication, database, and modern web technologies. AutoCare AI (2025) stack: NestJS, Next.js, GraphQL, Postgres, Docker. Link: http://autocare.ai.kr/"
+    "content": "AutoCare AI / AutoDeal is one of Bek's main projects — a car selling and search web application / automobile marketplace. Pages/features: Home, All cars, Car details, Agents, Agent details, About, Contact, Pricing, Blog, Login, Signup, Admin, My Page, FAQ, Notice. Frontend and backend are connected. Uses GraphQL, authentication, database, NestJS, Next.js, Postgres, Docker. Official link: http://autocare.ai.kr/"
+  },
+  {
+    "id": "project-mashaqqat",
+    "title": "Project — Mashaqqat",
+    "tags": ["project", "mashaqqat", "education", "courses", "2026"],
+    "content": "Mashaqqat is Bek's live education platform project. It offers FullStack, DevOps, AI Engineering, Agentic programming and Vibe Coding courses via monthly subscription, plus bootcamps and workshops (AI, Web, Mobile, Gaming, General). Course examples include Foundation, MERN, Python FullStack, JAVA FullStack, PHP, Frontend, MERN NestJS, Prisma. Tech typically includes Next.js, NestJS, Postgres, Stripe, Redis. Official link: https://www.mashaqqat.com/ Note: Mashaqqat is a separate education product — it is not the same as this About Me portfolio website."
   },
   {
     "id": "project-bookstore-nusret",
@@ -80,8 +92,8 @@
   {
     "id": "project-static-engine",
     "title": "Project — Static Engine",
-    "tags": ["project", "static-engine", "saas", "ai", "2026"],
-    "content": "Static Engine (2026): AI ad-creative SaaS platform. Features multi-provider LLM failover, Stripe billing, Meta and Shopify integrations. Tech: NestJS, TypeScript, Postgres, BullMQ, Redis, OpenAI. Link: https://staticengine.com/"
+    "tags": ["project", "static-engine", "saas", "ai", "ads", "meta", "2026"],
+    "content": "Static Engine (2026) is Bek's AI ad-creative SaaS. It generates high-performing Meta ad creatives instantly so performance teams can test faster and scale winning campaigns. Features: AI creative generation, ad library, brand setup, multiple creative variations, multi-ratio export (1:1, 9:16, 16:9), Canva templates, Stripe billing plans (Starter/Pro/Growth), multi-provider LLM failover, Meta/Shopify integrations. Tech: NestJS, TypeScript, Postgres, BullMQ, Redis, OpenAI. Official link: https://staticengine.com/"
   },
   {
     "id": "project-telegram-ai-quiz-bot",
