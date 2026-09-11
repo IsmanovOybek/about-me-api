@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: about-me-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: APP_NAME
+        value: about-me-api
+      - key: CORS_ORIGINS
+        sync: false
+      - key: LLM_PROVIDER
+        value: openai
+      - key: LLM_MODEL
+        value: gpt-4o-mini
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: EMBEDDING_PROVIDER
+        value: openai
+      - key: EMBEDDING_MODEL
+        value: text-embedding-3-small
+      - key: CHROMA_DIR
+        value: /app/storage/chroma
+      - key: INGEST_ON_START
+        value: if-empty
+      - key: TOP_K
+        value: "6"
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+    disk:
+      name: chroma-data
+      mountPath: /app/storage/chroma
+      sizeGB: 1

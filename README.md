@@ -122,3 +122,75 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
 Response contract o‘zgarmaydi: har doim `{ "reply": "string" }`.
+
+## Deploy
+
+Production image `requirements-prod.txt` ishlatadi (OpenAI embeddings; local `sentence-transformers` yo‘q — image engil).
+
+### Muhim env
+
+| Key | Misol |
+| --- | --- |
+| `OPENAI_API_KEY` | `sk-...` |
+| `CORS_ORIGINS` | `https://your-frontend.vercel.app,http://localhost:3000` |
+| `TELEGRAM_BOT_TOKEN` | optional |
+| `TELEGRAM_CHAT_ID` | optional |
+| `INGEST_ON_START` | `if-empty` (default) / `always` / `never` |
+| `CHROMA_DIR` | `/app/storage/chroma` |
+| `PORT` | platform beradi (Render/Railway) |
+
+Frontend:
+
+```env
+NEXT_PUBLIC_API_URL=https://your-api-url
+```
+
+### Lokal Docker
+
+```bash
+cp .env.example .env
+# .env ni to‘ldiring
+docker compose up --build
+```
+
+Health: http://localhost:8000/health
+
+Corpus yangilanganda:
+
+```bash
+docker compose exec api python scripts/ingest_knowledge.py
+```
+
+### Render
+
+1. Repo’ni Render’ga ulang
+2. `render.yaml` ishlatiladi (Docker + disk volume)
+3. Dashboard’da `OPENAI_API_KEY`, `CORS_ORIGINS`, Telegram env’larni qo‘ying
+
+### Railway
+
+1. New project → Deploy from GitHub
+2. `railway.json` Dockerfile build ishlatadi
+3. Variables: `OPENAI_API_KEY`, `CORS_ORIGINS`, ...
+4. Volume mount: `/app/storage/chroma` (tavsiya)
+
+### VPS (oddiy)
+
+```bash
+docker build -t about-me-api .
+docker run -d --name about-me-api \
+  -p 8000:8000 \
+  --env-file .env \
+  -e CHROMA_DIR=/app/storage/chroma \
+  -v about_me_chroma:/app/storage/chroma \
+  about-me-api
+```
+
+### Deploy checklist
+
+1. `.env` / platform secrets to‘ldirilgan
+2. `CORS_ORIGINS` da frontend production URL bor
+3. Birinchi start’da ingest o‘tadi (`INGEST_ON_START=if-empty`)
+4. `GET /health` → `ok`
+5. `POST /api/chat` ishlaydi
+6. Frontend `NEXT_PUBLIC_API_URL` production API’ga ulangan

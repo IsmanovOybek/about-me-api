@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Env & local data
+.env
+.DS_Store
+storage/chroma/
+
+# Git / IDE
+.git
+.gitignore
+.cursor
+*.md
+!README.md

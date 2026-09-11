@@ -30,6 +30,8 @@ class KnowledgeDocument:
 class VectorStore(Protocol):
     """Thin interface so Chroma can later be swapped for Qdrant/pgvector."""
 
+    def count(self) -> int: ...
+
     def reset_and_upsert(
         self,
         ids: list[str],
@@ -57,6 +59,9 @@ class ChromaVectorStore:
             name=self._collection_name,
             metadata={"hnsw:space": "cosine"},
         )
+
+    def count(self) -> int:
+        return int(self._collection.count())
 
     def reset_and_upsert(
         self,

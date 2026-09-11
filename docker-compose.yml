@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    ports:
+      - "${API_PORT:-8000}:8000"
+    env_file:
+      - .env
+    environment:
+      PORT: "8000"
+      CHROMA_DIR: /app/storage/chroma
+      INGEST_ON_START: ${INGEST_ON_START:-if-empty}
+    volumes:
+      - chroma_data:/app/storage/chroma
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
